@@ -67,6 +67,16 @@ h2 {
     font-size: 14px; /* Размер шрифта */
     margin-bottom: 5px; /* Отступ снизу между элементами списка */
 }
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding-bottom: 50px; /* Высота подвала */
+}
+
 footer {
     position: absolute;
     bottom: 0;
